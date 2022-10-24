@@ -76,9 +76,15 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
+
+	// 'username' => 'u9048253_dwk',
+	// 'password' => 'PesantrenDWKIT2021',
+	// 'database' => 'u9048253_sekretaris',
+
 	'username' => 'root',
 	'password' => '',
 	'database' => 'db_sekretaris',
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
