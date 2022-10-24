@@ -62,12 +62,11 @@
             <div class="col-md-8">
                 <div class="card mt-2">
                     <div class="card-header">
-                        Surat Resmi
+                        Preview Surat
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Surat Resmi</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                       <img src="https://surat.ppdwk.com/sekretaris/upload/surat_keluar/<?= $srt->nm_img ?>" alt="">
+                       <!-- <img src="http://localhost/sekretaris/upload/surat_keluar/<?= $srt->nm_img ?>" alt="" class="img-fluid"> -->
                     </div>
                 </div>
             </div>
